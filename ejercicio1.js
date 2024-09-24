@@ -11,7 +11,12 @@ function compareZeroAndZero() {
 
 // 3. Comprueba si 7 es mayor que 8 y menor que 10, e imprime el resultado en consola.
 function compareSeven() {
-    console.log(7 > 8 <10)
+const numero = 7;
+    if (numero > 8 && numero < 10) {
+    console.log("7 es mayor que 8 y menor que 10.");
+    } else {
+    console.log("7 no es mayor que 8 ni menor que 10.");
+}
 }
 
 // Operadores lógicos
